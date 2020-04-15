@@ -18,7 +18,9 @@ font-family: 'Bree Serif', serif; */
 .fcard .row{
     padding: 0px 50px;
 }
-
+.description{
+    padding-bottom: 50px;
+}
 .parallax-container{
     min-height: 480px;
     height: auto;
@@ -30,6 +32,16 @@ font-family: 'Bree Serif', serif; */
 }
 .fcard{
     padding: 50px 0px;
+}
+.card-panel{
+    width: 300px;
+}
+.card-panel span{
+    font-size: 18px;
+    font-weight: 500;
+}
+p{
+    /* font-size: 17px; */
 }
 
 @media(max-width: 992px){

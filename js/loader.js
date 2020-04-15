@@ -5,6 +5,11 @@ $(document).ready( () => {
     $('.slider').slider({
         fullWidth: true
     })
+    $('.myreviews').carousel({
+        numVisible: 7,
+        shift: 55,
+        padding: 55
+    })
 })
 
 const toggleModal = () => {
