@@ -1,6 +1,10 @@
 $(document).ready( () => {
     $('.modal').modal();
     $('.parallax').parallax();
+    $('.sidenav').sidenav();
+    $('.slider').slider({
+        fullWidth: true
+    })
 })
 
 const toggleModal = () => {

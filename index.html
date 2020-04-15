@@ -15,7 +15,196 @@
     <title>Coffee King</title>
 </head>
 <body>
-    <a href="#" onclick="toggleModal()">Click Me</a>
+    <!-- navigation bar -->
+    <section class="fnavbar">      
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">CofeKing</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a onclick="toggleModal()" href="#">Home</a></li>
+                    <li><a onclick="toggleModal()" href="#">About Us</a></li>
+                    <li><a onclick="toggleModal()" href="#">Coffee</a></li>
+                    <li><a onclick="toggleModal()" href="#">Surprise</a></li>
+                    <li><a onclick="toggleModal()" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a onclick="toggleModal()" href="#">Home</a></li>
+                    <li><a onclick="toggleModal()" href="#">About Us</a></li>
+                    <li><a onclick="toggleModal()" href="#">Coffee</a></li>
+                    <li><a onclick="toggleModal()" href="#">Surprise</a></li>
+                    <li><a onclick="toggleModal()" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- our slider -->
+    <section class="fslider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="/images/banner1.png" alt="Image one">
+                    <div class="caption center-align white-text">
+                        <h3>CafeKing - Quality cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around...
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/banner2.png" alt="Image one">
+                    <div class="caption center-align white-text">
+                        <h3>CafeKing - Finnest cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around...
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/banner3.png" alt="Image one">
+                    <div class="caption center-align white-text">
+                        <h3>CafeKing - Finnest cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around...
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="description">
+        <div class="section white center">
+            <h2 class="header">
+                CakeKing - Ultimate quality cafe.
+            </h2>
+            <div class="row container center">
+                <!-- long text here -->
+                <div class="col center l8 m6 s12 move">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, esse aut, ab modi dicta repudiandae eligendi nemo voluptates odit quia illum ducimus quibusdam sunt laudantium dolorum, tenetur corporis vero assumenda laborum veritatis doloribus quo. Dolorem, nesciunt! Id necessitatibus fuga temporibus fugit reiciendis sit a nihil modi maiores placeat aspernatur, corporis voluptatibus? Hic ad nostrum in minima totam quibusdam? Voluptatum, doloremque molestiae? Atque ab, officia adipisci quos est accusamus explicabo itaque, nisi suscipit fugit neque modi. Minus reprehenderit modi facere iusto. Commodi veritatis rerum unde accusamus! Vitae, non. Deserunt delectus eum aliquid quo omnis quae! Deleniti modi alias perspiciatis sapiente aliquam?</p>
+                </div>
+                <div class="col center l4 m6 s12 move">
+                    <img 
+                        src="/images/coffee.png" 
+                        alt="Coffee" 
+                        style="object-fit: contain;"
+                        height="200" 
+                        width="auto"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="https://images.pexels.com/photos/414636/pexels-photo-414636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        </div>
+    </div>
+
+    <!-- card section -->
+    <section class="fcard">
+        <div class="container">
+            <h2 class="header center">
+                For lovers of coffee.
+            </h2>
+            <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae alias vel perferendis mollitia nam sapiente enim maiores, aliquam necessitatibus veniam reiciendis quas at quisquam, repudiandae beatae ullam nihil molestias temporibus!</p>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item1.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Espresso<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Espresso<i class="material-icons right">close</i></span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem delectus ea aspernatur consectetur dignissimos voluptatum quaerat illo vero itaque harum corporis autem culpa neque quo accusantium ipsum sequi et.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item2.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Latte<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Latte<i class="material-icons right">close</i></span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores labore libero nisi porro ducimus obcaecati ex molestiae nobis atque veritatis expedita, illum eius pariatur repudiandae quo, dolores animi eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item3.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Macchiato<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Macchiato<i class="material-icons right">close</i></span>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, tenetur voluptates maxime, beatae maiores cumque dolore praesentium esse deserunt odit porro perferendis at laudantium numquam inventore quidem ut aperiam culpa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="/images/para2.jpg">
+        </div>
+    </div>
+
+      <!-- about us section -->
+    <section class="fabout">
+        <div class="section white center">
+            <div class="row container">
+                <h2 class="header">
+                    About Us
+                </h2>
+                <!-- Long Text -->
+                <p class="grey-text text-darken-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nostrum necessitatibus, adipisci earum officia, ut quasi laborum corporis mollitia facilis ipsam suscipit tempora perferendis natus doloribus maxime. Ipsa eligendi saepe vitae eveniet quisquam amet reiciendis impedit odio eius aspernatur officiis ratione corporis laborum exercitationem quod consequuntur enim, odit beatae molestias totam ullam sunt sint voluptatum ab? Cum perspiciatis ullam quidem doloribus doloremque repudiandae voluptates corporis debitis ea quis quam, autem id mollitia similique reiciendis facere totam est, molestiae eum sequi minus, omnis non tempora! Nam, ad! Iure ipsam repudiandae, dicta placeat vel esse deleniti delectus modi veniam, mollitia, dolore facilis.
+                </p>
+                <a 
+                href="#"
+                class="btn waves-effect waves-light"
+                style="background-color: #6f4037;"
+            >
+                Read More
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="fservices">
+        <div class="row" style="padding: 0px 50px">
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="large material-icons icon-coffee">local_dining</i>
+                <h5 class="header">Variety Coffee</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="large material-icons icon-coffee">watch_later</i>
+                <h5 class="header">Variety Coffee</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="large material-icons icon-coffee">favorite</i>
+                <h5 class="header">Variety Coffee</h5>
+            </div>
+        </div>
+    </section>
+    <!-- Info modal -->
     <section class="infomodal">
         <div id="modal3" class="modal">
             <div class="modal-content">
