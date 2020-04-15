@@ -29,8 +29,13 @@ p{
 .sidenav{
     background-color: #6f4037 !important;
 }
-.sidenav .material-icons ,a{
+.sidenav a{
     color: #fff !important;
+    font-size: 20px !important;
+}
+.sidenav .material-icons{
+    color: #fff !important;
+    font-size: 26px !important;
 }
 
 /* Apply fonts */
