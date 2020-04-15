@@ -1,16 +1,60 @@
-/* font-family: 'Pacifico', cursive;
+/* 
 font-family: 'Bree Serif', serif; */
 
+body{
+    font-family: 'Bree Serif', serif; 
+}
+p{
+    font-size: 18px;
+}
+.nav-extended{
+    height: 70px !important;
+}
+/* navigation bar */
 .nav-wrapper{
     background-color: #6f4037;
     padding: 0px 80px;
+    height: 70px !important;
+}
+.nav-wrapper ul li a{
+    font-size: 18px !important;
+    margin: 0px 7px !important;
+}
+.nav-wrapper .material-icons{
+    position: relative;
+    display: inline;
+    font-size: 23px;
+    top: 5px;
 }
 
+/* Apply fonts */
+.header{
+    font-family: 'Pacifico', cursive;
+}
+.brand-logo,h4{
+    font-family: 'Pacifico', cursive;
+}
+.brand-logo .material-icons{
+    font-size: 42px;
+    top: 1.5px;
+}
+
+/* Home */
 .slider .indicators .indicator-item.active{
     background-color: #6f4037;
 }
 .move{
     margin-top: 60px;
+}
+
+/* description section */
+.description{
+    padding-bottom: 50px;
+}
+
+/* Card section */
+.fcard{
+    padding: 50px 0px;
 }
 .fcard .col{
     padding: 50px 20px;
@@ -18,24 +62,24 @@ font-family: 'Bree Serif', serif; */
 .fcard .row{
     padding: 0px 50px;
 }
-.description{
-    padding-bottom: 50px;
+.card-reveal{
+    background-color: #6f4037a9 !important;
+    color: #fff !important;
 }
+
+/* Parallex effect */
 .parallax-container{
     min-height: 480px;
     height: auto;
     background-image: linear-gradient(to bottom, #6f4037a9, #6f4037a9)
 }
 
+/* Services section */
 .icon-coffee{
     color: #6f4037;
 }
-.fcard{
-    padding: 50px 0px;
-}
-p{
-    font-size: 18px;
-}
+
+/* testimonial section */
 .card-panel span{
     font-size: 18px;
     font-weight: 500;
@@ -44,6 +88,21 @@ p{
     font-size: 15px;
 }
 
+/* footer section */
+.footer-one{
+    background-color: #6f4037;
+}
+.footer-two{
+    background-color: #462822;
+    margin-bottom: 0px;
+}
+.footer-one a{
+    font-size: 18px;
+}
+.footer-one a:hover,
+.footer-one p:hover {
+    color: #fff !important;
+}
 
 @media(max-width: 992px){
     .nav-wrapper{
