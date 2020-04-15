@@ -33,16 +33,17 @@ font-family: 'Bree Serif', serif; */
 .fcard{
     padding: 50px 0px;
 }
-.card-panel{
-    width: 300px;
+p{
+    font-size: 18px;
 }
 .card-panel span{
     font-size: 18px;
     font-weight: 500;
 }
-p{
-    /* font-size: 17px; */
+.card-panel p{
+    font-size: 15px;
 }
+
 
 @media(max-width: 992px){
     .nav-wrapper{
@@ -61,6 +62,12 @@ p{
         width: 100%;
     }
     .fcard{
-        padding: 80px 0px;
+        padding: 20px 0px;
+    }
+    .header{
+        font-size: 40px !important;
+    }
+    h5 .header{
+        font-size: 20px !important;
     }
 }
