@@ -26,6 +26,12 @@ p{
     font-size: 23px;
     top: 5px;
 }
+.sidenav{
+    background-color: #6f4037 !important;
+}
+.sidenav .material-icons ,a{
+    color: #fff !important;
+}
 
 /* Apply fonts */
 .header{
