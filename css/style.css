@@ -28,10 +28,12 @@ p{
 }
 .sidenav{
     background-color: #6f4037 !important;
+    padding-top: 50px;
 }
 .sidenav a{
     color: #fff !important;
     font-size: 20px !important;
+    margin-top: 20px;
 }
 .sidenav .material-icons{
     color: #fff !important;
@@ -139,5 +141,16 @@ p{
     }
     h5 .header{
         font-size: 20px !important;
+    }
+    .brand-logo, h4{
+        top: 5px;
+        font-size: 26px !important;
+    }
+    .brand-logo .material-icons{
+        font-size: 36px;
+        top: 1.5px;
+    }
+    .nav-wrapper a .material-icons{
+        font-size: 32px;
     }
 }
